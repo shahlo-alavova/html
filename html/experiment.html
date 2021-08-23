@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<title>Registration form</title>
+</head>
+<body>
+<h1>Registration</h1>
+<form >
+<label for="dogs">First Name:</label>	
+<input id="dogs" type="text" name="name" required placeholder="John">
+<label for="cats">Last name:</label>
+<input type="text" id="cats" name="surname" required placeholder="Smith">
+<section><br>
+<label id="male">Male</label>
+<input form="male" type="radio" name="gender" value="male">
+<label id="female">Female</label>
+<input form="female" type="radio" name="gender" value="female">
+<label id="other">Other</label>
+<input form="other" type="radio" name="gender" value="other"><br><br>
+</section>
+<label>Email:<input type="email" placeholder="johnsmith@gmail.com"></label>
+<br><br>
+<label>Password:<input type="text" minlength="5" maxlength="10" placeholder=" from 5 to 10 symbols"></label>
+<br><br>
+
+<section><label>Birthday:
+<select name="day">
+	<option>Day</option>
+	<option>1</option>
+	<option>2</option>
+</select>
+
+<select name="month">
+	<option>Month</option>
+	<option value="01">January</option>
+	<option value="02">February</option>
+</select>
+<select name="year">
+	<option >Year</option>
+	<option>2010</option>
+	<option>2011</option>
+</select>
+</label>
+</section>
+<label>I agree to the conditions and terms <input type="checkbox"></label>
+<button>Submit</button>
+<input type="submit" name="">
+</form>
+</body>
+</html>
